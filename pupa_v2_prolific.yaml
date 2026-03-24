@@ -33,7 +33,7 @@ max_annotations_per_item: 3
 
 # Data files
 data_files:
-- /home/sylviali/Documents/pupa_v2_official/data/potato_data.jsonl
+- data/potato_data.jsonl
 item_properties:
   id_key: id
   text_key: user_query
