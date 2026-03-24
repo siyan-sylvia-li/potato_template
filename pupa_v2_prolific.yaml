@@ -1,5 +1,5 @@
 # Task identification
-port: 9001
+port: 19001
 annotation_task_name: "Private Query Quality Assessment"
 
 
@@ -9,7 +9,7 @@ login:
   url_argument: PROLIFIC_PID
 
 # Completion settings
-completion_code: "ABC123XYZ"
+completion_code: "CP1VW0DU"
 auto_redirect_on_completion: false  # Set to true for auto-redirect
 
 # Hide navigation to prevent workers from skipping
@@ -28,7 +28,7 @@ phases:
 
 # Automatic task assignment for crowdsourcing
 assignment_strategy: random
-max_annotations_per_user: 5
+max_annotations_per_user: 50
 max_annotations_per_item: 3
 
 # Data files

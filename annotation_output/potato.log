@@ -1,0 +1,56 @@
+2026-03-24 10:25:07 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: False
+2026-03-24 10:25:07 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
+2026-03-24 10:25:07 [INFO] server_utils.front_end: Generating anntotation site at /home/sylviali/miniconda3/envs/potato/lib/python3.12/site-packages/potato/templates
+2026-03-24 10:25:07 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for pii_intent with 2 options
+2026-03-24 10:25:07 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout.html
+2026-03-24 10:25:07 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout.html
+2026-03-24 10:25:07 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for pii_intent with 2 options
+2026-03-24 10:25:07 [INFO] server_utils.front_end: Generated annotation layout file: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout.html
+2026-03-24 10:25:07 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for pii_intent with 2 options
+2026-03-24 10:25:07 [INFO] potato.flask_server: Loaded user data for 0 users
+2026-03-24 10:25:07 [INFO] server_utils.front_end: Using custom task layout file: layouts/instructions_task_layout.html
+2026-03-24 10:25:07 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for pii_intent with 2 options
+2026-03-24 10:25:07 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout_annotation.html
+2026-03-24 10:25:07 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout_annotation.html
+2026-03-24 10:25:07 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for pii_intent with 2 options
+2026-03-24 10:25:07 [INFO] server_utils.front_end: Generated annotation layout file: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout_annotation.html
+2026-03-24 10:25:07 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
+2026-03-24 10:25:07 [INFO] potato.flask_server: Knowledge base manager initialized
+2026-03-24 10:25:07 [INFO] potato.flask_server: Password authentication required: False
+2026-03-24 10:25:07 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
+2026-03-24 10:26:24 [WARNING] potato.flask_server: URL-direct login configured but 'PROLIFIC_PID' not found in URL
+2026-03-24 10:26:43 [INFO] potato.flask_server: URL-direct login: user=234abc, session_id=None, study_id=None
+2026-03-24 10:33:48 [INFO] potato.flask_server: Annotation platform shutdown complete
+2026-03-24 10:33:59 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: False
+2026-03-24 10:33:59 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
+2026-03-24 10:33:59 [INFO] server_utils.front_end: Generating anntotation site at /home/sylviali/miniconda3/envs/potato/lib/python3.12/site-packages/potato/templates
+2026-03-24 10:33:59 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for pii_intent with 2 options
+2026-03-24 10:33:59 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout.html
+2026-03-24 10:33:59 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout.html
+2026-03-24 10:33:59 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for pii_intent with 2 options
+2026-03-24 10:33:59 [INFO] server_utils.front_end: Generated annotation layout file: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout.html
+2026-03-24 10:33:59 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for pii_intent with 2 options
+2026-03-24 10:34:00 [INFO] potato.flask_server: Loaded user data for 0 users
+2026-03-24 10:34:00 [INFO] server_utils.front_end: Using custom task layout file: layouts/instructions_task_layout.html
+2026-03-24 10:34:00 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for pii_intent with 2 options
+2026-03-24 10:34:00 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout_annotation.html
+2026-03-24 10:34:00 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout_annotation.html
+2026-03-24 10:34:00 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for pii_intent with 2 options
+2026-03-24 10:34:00 [INFO] server_utils.front_end: Generated annotation layout file: /home/sylviali/Documents/pupa_v2_official/pupa_potato/layouts/task_layout_annotation.html
+2026-03-24 10:34:00 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
+2026-03-24 10:34:00 [INFO] potato.flask_server: Knowledge base manager initialized
+2026-03-24 10:34:00 [INFO] potato.flask_server: Password authentication required: False
+2026-03-24 10:34:00 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
+2026-03-24 10:42:35 [INFO] potato.flask_server: URL-direct login: user=64b74fc78ad5beabe87e901f, session_id=69c2a2b9835cbbe2e2499d34, study_id=69c2a1daf3dfeebef95e6c88
+2026-03-24 10:44:27 [INFO] potato.flask_server: URL-direct login: user=697901739485e54dd63b109b, session_id=69c2a34016011df96f486e52, study_id=69c2a1daf3dfeebef95e6c88
+2026-03-24 10:44:31 [INFO] potato.flask_server: User 64b74fc78ad5beabe87e901f not in annotation phase (phase=instructions), redirecting.
+2026-03-24 10:44:31 [INFO] potato.flask_server: Leaked next_instance from phase instructions, advancing phase
+2026-03-24 10:45:28 [INFO] potato.flask_server: User 697901739485e54dd63b109b not in annotation phase (phase=instructions), redirecting.
+2026-03-24 10:45:28 [INFO] potato.flask_server: Leaked next_instance from phase instructions, advancing phase
+2026-03-24 10:45:37 [INFO] potato.flask_server: URL-direct login: user=6500dc59b68e8f05202604fe, session_id=69c2a324a2923fcb4c75aa55, study_id=69c2a1daf3dfeebef95e6c88
+2026-03-24 10:47:08 [INFO] potato.flask_server: User 6500dc59b68e8f05202604fe not in annotation phase (phase=instructions), redirecting.
+2026-03-24 10:47:08 [INFO] potato.flask_server: Leaked next_instance from phase instructions, advancing phase
+2026-03-24 10:52:14 [INFO] potato.flask_server: URL-direct login: user=634d7250f674c11a71d1b88e, session_id=69c2a4d8032260c333e7e1cc, study_id=69c2a1daf3dfeebef95e6c88
+2026-03-24 10:52:46 [INFO] potato.flask_server: User 634d7250f674c11a71d1b88e not in annotation phase (phase=instructions), redirecting.
+2026-03-24 10:52:46 [INFO] potato.flask_server: Leaked next_instance from phase instructions, advancing phase
+2026-03-24 11:18:47 [INFO] potato.flask_server: Annotation platform shutdown complete

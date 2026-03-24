@@ -1,0 +1,6112 @@
+{
+  "user_id": "634d7250f674c11a71d1b88e",
+  "instance_id_ordering": [
+    "727",
+    "545",
+    "510",
+    "440",
+    "55",
+    "713",
+    "858",
+    "317",
+    "721",
+    "704",
+    "974",
+    "1074",
+    "610",
+    "382",
+    "212",
+    "529",
+    "396",
+    "324",
+    "320",
+    "674",
+    "826",
+    "98",
+    "598",
+    "78",
+    "459",
+    "1061",
+    "182",
+    "666",
+    "968",
+    "138",
+    "153",
+    "969",
+    "1055",
+    "432",
+    "890",
+    "367",
+    "126",
+    "292",
+    "276",
+    "101",
+    "352",
+    "307",
+    "148",
+    "696",
+    "368",
+    "3",
+    "130",
+    "190",
+    "321",
+    "472"
+  ],
+  "current_instance_index": 49,
+  "current_phase_and_page": [
+    "done",
+    null
+  ],
+  "completed_phase_and_pages": [],
+  "max_assignments": 50,
+  "instance_id_to_behavioral_data": {
+    "null": {
+      "instance_id": null,
+      "session_start": 1774363961.1014404,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "click",
+          "timestamp": 1774363957.481,
+          "target": "schema:read_instructions",
+          "instance_id": null,
+          "client_timestamp": 1774363957481,
+          "metadata": {
+            "x": 88,
+            "y": 1075
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774363957.482,
+          "target": "label:read_instructions:Yes",
+          "instance_id": null,
+          "client_timestamp": 1774363957482,
+          "metadata": {
+            "x": 88,
+            "y": 1075
+          }
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774363966.45,
+          "target": "next",
+          "instance_id": null,
+          "client_timestamp": 1774363966450,
+          "metadata": {
+            "to_instance": null
+          }
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "727": {
+      "instance_id": "727",
+      "session_start": 1774363979.644116,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774363974.426,
+          "target": "instance_load",
+          "instance_id": "727",
+          "client_timestamp": 1774363974426,
+          "metadata": {
+            "instance_id": "727",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364002.91,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "727",
+          "client_timestamp": 1774364002910,
+          "metadata": {
+            "x": 60,
+            "y": 541
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364002.912,
+          "target": "schema:pii_intent",
+          "instance_id": "727",
+          "client_timestamp": 1774364002912,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364003.414,
+          "target": "instance:727",
+          "instance_id": "727",
+          "client_timestamp": 1774364003414,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364004.288,
+          "target": "next",
+          "instance_id": "727",
+          "client_timestamp": 1774364004288,
+          "metadata": {
+            "from_instance": "727",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364004.288,
+          "target": "instance:727",
+          "instance_id": "727",
+          "client_timestamp": 1774364004288,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364003.138709,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "545": {
+      "instance_id": "545",
+      "session_start": 1774364011.7330024,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364006.489,
+          "target": "instance_load",
+          "instance_id": "545",
+          "client_timestamp": 1774364006489,
+          "metadata": {
+            "instance_id": "545",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364026.099,
+          "target": "schema:pii_intent",
+          "instance_id": "545",
+          "client_timestamp": 1774364026099,
+          "metadata": {
+            "x": 93,
+            "y": 542
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364026.099,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "545",
+          "client_timestamp": 1774364026099,
+          "metadata": {
+            "x": 93,
+            "y": 542
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364026.1,
+          "target": "schema:pii_intent",
+          "instance_id": "545",
+          "client_timestamp": 1774364026100,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364026.601,
+          "target": "instance:545",
+          "instance_id": "545",
+          "client_timestamp": 1774364026601,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364027.103,
+          "target": "next",
+          "instance_id": "545",
+          "client_timestamp": 1774364027103,
+          "metadata": {
+            "from_instance": "545",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364027.104,
+          "target": "instance:545",
+          "instance_id": "545",
+          "client_timestamp": 1774364027104,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364026.3218071,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "510": {
+      "instance_id": "510",
+      "session_start": 1774364034.33687,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364029.101,
+          "target": "instance_load",
+          "instance_id": "510",
+          "client_timestamp": 1774364029101,
+          "metadata": {
+            "instance_id": "510",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364058.048,
+          "target": "schema:pii_intent",
+          "instance_id": "510",
+          "client_timestamp": 1774364058048,
+          "metadata": {
+            "x": 225,
+            "y": 387
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364058.049,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "510",
+          "client_timestamp": 1774364058049,
+          "metadata": {
+            "x": 225,
+            "y": 387
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364058.049,
+          "target": "schema:pii_intent",
+          "instance_id": "510",
+          "client_timestamp": 1774364058049,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364058.551,
+          "target": "instance:510",
+          "instance_id": "510",
+          "client_timestamp": 1774364058551,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364059.049,
+          "target": "next",
+          "instance_id": "510",
+          "client_timestamp": 1774364059049,
+          "metadata": {
+            "from_instance": "510",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364059.049,
+          "target": "instance:510",
+          "instance_id": "510",
+          "client_timestamp": 1774364059049,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364058.2750688,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "440": {
+      "instance_id": "440",
+      "session_start": 1774364066.5274105,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364061.298,
+          "target": "instance_load",
+          "instance_id": "440",
+          "client_timestamp": 1774364061298,
+          "metadata": {
+            "instance_id": "440",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364067.033,
+          "target": "schema:pii_intent",
+          "instance_id": "440",
+          "client_timestamp": 1774364067033,
+          "metadata": {
+            "x": 108,
+            "y": 339
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364067.408,
+          "target": "schema:pii_intent",
+          "instance_id": "440",
+          "client_timestamp": 1774364067408,
+          "metadata": {
+            "x": 106,
+            "y": 346
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364067.409,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "440",
+          "client_timestamp": 1774364067409,
+          "metadata": {
+            "x": 106,
+            "y": 346
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364067.409,
+          "target": "schema:pii_intent",
+          "instance_id": "440",
+          "client_timestamp": 1774364067409,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364067.91,
+          "target": "instance:440",
+          "instance_id": "440",
+          "client_timestamp": 1774364067910,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364070.651,
+          "target": "next",
+          "instance_id": "440",
+          "client_timestamp": 1774364070651,
+          "metadata": {
+            "from_instance": "440",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364070.651,
+          "target": "instance:440",
+          "instance_id": "440",
+          "client_timestamp": 1774364070651,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364067.6387994,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "55": {
+      "instance_id": "55",
+      "session_start": 1774364078.1171453,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364072.885,
+          "target": "instance_load",
+          "instance_id": "55",
+          "client_timestamp": 1774364072885,
+          "metadata": {
+            "instance_id": "55",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364080.741,
+          "target": "schema:pii_intent",
+          "instance_id": "55",
+          "client_timestamp": 1774364080741,
+          "metadata": {
+            "x": 207,
+            "y": 415
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364080.741,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "55",
+          "client_timestamp": 1774364080741,
+          "metadata": {
+            "x": 207,
+            "y": 415
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364080.742,
+          "target": "schema:pii_intent",
+          "instance_id": "55",
+          "client_timestamp": 1774364080742,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364081.245,
+          "target": "instance:55",
+          "instance_id": "55",
+          "client_timestamp": 1774364081245,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364081.9,
+          "target": "next",
+          "instance_id": "55",
+          "client_timestamp": 1774364081900,
+          "metadata": {
+            "from_instance": "55",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364081.9,
+          "target": "instance:55",
+          "instance_id": "55",
+          "client_timestamp": 1774364081900,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364081.0306396,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "713": {
+      "instance_id": "713",
+      "session_start": 1774364089.181452,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364083.948,
+          "target": "instance_load",
+          "instance_id": "713",
+          "client_timestamp": 1774364083948,
+          "metadata": {
+            "instance_id": "713",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364112.586,
+          "target": "schema:pii_intent",
+          "instance_id": "713",
+          "client_timestamp": 1774364112586,
+          "metadata": {
+            "x": 108,
+            "y": 689
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364113.054,
+          "target": "schema:pii_intent",
+          "instance_id": "713",
+          "client_timestamp": 1774364113054,
+          "metadata": {
+            "x": 104,
+            "y": 695
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364113.055,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "713",
+          "client_timestamp": 1774364113055,
+          "metadata": {
+            "x": 104,
+            "y": 695
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364113.056,
+          "target": "schema:pii_intent",
+          "instance_id": "713",
+          "client_timestamp": 1774364113056,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364113.559,
+          "target": "instance:713",
+          "instance_id": "713",
+          "client_timestamp": 1774364113559,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364113.969,
+          "target": "next",
+          "instance_id": "713",
+          "client_timestamp": 1774364113969,
+          "metadata": {
+            "from_instance": "713",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364113.969,
+          "target": "instance:713",
+          "instance_id": "713",
+          "client_timestamp": 1774364113969,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364113.2845669,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "858": {
+      "instance_id": "858",
+      "session_start": 1774364121.8142228,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364116.567,
+          "target": "instance_load",
+          "instance_id": "858",
+          "client_timestamp": 1774364116567,
+          "metadata": {
+            "instance_id": "858",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364153.956,
+          "target": "schema:pii_intent",
+          "instance_id": "858",
+          "client_timestamp": 1774364153956,
+          "metadata": {
+            "x": 264,
+            "y": 450
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364153.956,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "858",
+          "client_timestamp": 1774364153956,
+          "metadata": {
+            "x": 264,
+            "y": 450
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364153.956,
+          "target": "schema:pii_intent",
+          "instance_id": "858",
+          "client_timestamp": 1774364153956,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364154.457,
+          "target": "instance:858",
+          "instance_id": "858",
+          "client_timestamp": 1774364154457,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364155.441,
+          "target": "next",
+          "instance_id": "858",
+          "client_timestamp": 1774364155441,
+          "metadata": {
+            "from_instance": "858",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364155.441,
+          "target": "instance:858",
+          "instance_id": "858",
+          "client_timestamp": 1774364155441,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364154.178523,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "317": {
+      "instance_id": "317",
+      "session_start": 1774364162.7154665,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364157.494,
+          "target": "instance_load",
+          "instance_id": "317",
+          "client_timestamp": 1774364157494,
+          "metadata": {
+            "instance_id": "317",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364166.332,
+          "target": "schema:pii_intent",
+          "instance_id": "317",
+          "client_timestamp": 1774364166332,
+          "metadata": {
+            "x": 116,
+            "y": 347
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364166.333,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "317",
+          "client_timestamp": 1774364166333,
+          "metadata": {
+            "x": 116,
+            "y": 347
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364166.333,
+          "target": "schema:pii_intent",
+          "instance_id": "317",
+          "client_timestamp": 1774364166333,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364166.834,
+          "target": "instance:317",
+          "instance_id": "317",
+          "client_timestamp": 1774364166834,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364167.334,
+          "target": "next",
+          "instance_id": "317",
+          "client_timestamp": 1774364167334,
+          "metadata": {
+            "from_instance": "317",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364167.334,
+          "target": "instance:317",
+          "instance_id": "317",
+          "client_timestamp": 1774364167334,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364166.5601819,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "721": {
+      "instance_id": "721",
+      "session_start": 1774364173.011306,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364169.561,
+          "target": "instance_load",
+          "instance_id": "721",
+          "client_timestamp": 1774364169561,
+          "metadata": {
+            "instance_id": "721",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364172.167,
+          "target": "schema:pii_intent",
+          "instance_id": "721",
+          "client_timestamp": 1774364172167,
+          "metadata": {
+            "x": 189,
+            "y": 338
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364172.71,
+          "target": "schema:pii_intent",
+          "instance_id": "721",
+          "client_timestamp": 1774364172710,
+          "metadata": {
+            "x": 189,
+            "y": 347
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364172.711,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "721",
+          "client_timestamp": 1774364172711,
+          "metadata": {
+            "x": 189,
+            "y": 347
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364172.712,
+          "target": "schema:pii_intent",
+          "instance_id": "721",
+          "client_timestamp": 1774364172712,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364173.213,
+          "target": "instance:721",
+          "instance_id": "721",
+          "client_timestamp": 1774364173213,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364174.435,
+          "target": "next",
+          "instance_id": "721",
+          "client_timestamp": 1774364174435,
+          "metadata": {
+            "from_instance": "721",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364174.435,
+          "target": "instance:721",
+          "instance_id": "721",
+          "client_timestamp": 1774364174435,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364173.0113099,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "704": {
+      "instance_id": "704",
+      "session_start": 1774364181.7631533,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364176.427,
+          "target": "instance_load",
+          "instance_id": "704",
+          "client_timestamp": 1774364176427,
+          "metadata": {
+            "instance_id": "704",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364186.374,
+          "target": "schema:pii_intent",
+          "instance_id": "704",
+          "client_timestamp": 1774364186374,
+          "metadata": {
+            "x": 205,
+            "y": 413
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364186.375,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "704",
+          "client_timestamp": 1774364186375,
+          "metadata": {
+            "x": 205,
+            "y": 413
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364186.376,
+          "target": "schema:pii_intent",
+          "instance_id": "704",
+          "client_timestamp": 1774364186376,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364186.88,
+          "target": "instance:704",
+          "instance_id": "704",
+          "client_timestamp": 1774364186880,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364187.605,
+          "target": "next",
+          "instance_id": "704",
+          "client_timestamp": 1774364187605,
+          "metadata": {
+            "from_instance": "704",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364187.605,
+          "target": "instance:704",
+          "instance_id": "704",
+          "client_timestamp": 1774364187605,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364186.6027718,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "974": {
+      "instance_id": "974",
+      "session_start": 1774364195.435608,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364191.92,
+          "target": "instance_load",
+          "instance_id": "974",
+          "client_timestamp": 1774364191920,
+          "metadata": {
+            "instance_id": "974",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364195.162,
+          "target": "schema:pii_intent",
+          "instance_id": "974",
+          "client_timestamp": 1774364195162,
+          "metadata": {
+            "x": 115,
+            "y": 345
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364195.163,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "974",
+          "client_timestamp": 1774364195163,
+          "metadata": {
+            "x": 115,
+            "y": 345
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364195.164,
+          "target": "schema:pii_intent",
+          "instance_id": "974",
+          "client_timestamp": 1774364195164,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364195.665,
+          "target": "instance:974",
+          "instance_id": "974",
+          "client_timestamp": 1774364195665,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364197.218,
+          "target": "next",
+          "instance_id": "974",
+          "client_timestamp": 1774364197218,
+          "metadata": {
+            "from_instance": "974",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364197.218,
+          "target": "instance:974",
+          "instance_id": "974",
+          "client_timestamp": 1774364197218,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364195.4356143,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "1074": {
+      "instance_id": "1074",
+      "session_start": 1774364208.779661,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364205.948,
+          "target": "instance_load",
+          "instance_id": "1074",
+          "client_timestamp": 1774364205948,
+          "metadata": {
+            "instance_id": "1074",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364208.556,
+          "target": "schema:pii_intent",
+          "instance_id": "1074",
+          "client_timestamp": 1774364208556,
+          "metadata": {
+            "x": 110,
+            "y": 347
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364208.556,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "1074",
+          "client_timestamp": 1774364208556,
+          "metadata": {
+            "x": 110,
+            "y": 347
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364208.557,
+          "target": "schema:pii_intent",
+          "instance_id": "1074",
+          "client_timestamp": 1774364208557,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364209.058,
+          "target": "instance:1074",
+          "instance_id": "1074",
+          "client_timestamp": 1774364209058,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364209.471,
+          "target": "next",
+          "instance_id": "1074",
+          "client_timestamp": 1774364209471,
+          "metadata": {
+            "from_instance": "1074",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364209.471,
+          "target": "instance:1074",
+          "instance_id": "1074",
+          "client_timestamp": 1774364209471,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364208.7796738,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "610": {
+      "instance_id": "610",
+      "session_start": 1774364215.9224536,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364211.348,
+          "target": "instance_load",
+          "instance_id": "610",
+          "client_timestamp": 1774364211348,
+          "metadata": {
+            "instance_id": "610",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364215.067,
+          "target": "schema:pii_intent",
+          "instance_id": "610",
+          "client_timestamp": 1774364215067,
+          "metadata": {
+            "x": 321,
+            "y": 373
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364215.681,
+          "target": "schema:pii_intent",
+          "instance_id": "610",
+          "client_timestamp": 1774364215681,
+          "metadata": {
+            "x": 315,
+            "y": 356
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364215.682,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "610",
+          "client_timestamp": 1774364215682,
+          "metadata": {
+            "x": 315,
+            "y": 356
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364215.682,
+          "target": "schema:pii_intent",
+          "instance_id": "610",
+          "client_timestamp": 1774364215682,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364216.184,
+          "target": "instance:610",
+          "instance_id": "610",
+          "client_timestamp": 1774364216184,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364216.734,
+          "target": "next",
+          "instance_id": "610",
+          "client_timestamp": 1774364216734,
+          "metadata": {
+            "from_instance": "610",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364216.734,
+          "target": "instance:610",
+          "instance_id": "610",
+          "client_timestamp": 1774364216734,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364215.9224565,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "382": {
+      "instance_id": "382",
+      "session_start": 1774364231.4552615,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364226.225,
+          "target": "instance_load",
+          "instance_id": "382",
+          "client_timestamp": 1774364226225,
+          "metadata": {
+            "instance_id": "382",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364245.622,
+          "target": "schema:pii_intent",
+          "instance_id": "382",
+          "client_timestamp": 1774364245622,
+          "metadata": {
+            "x": 264,
+            "y": 360
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364245.622,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "382",
+          "client_timestamp": 1774364245622,
+          "metadata": {
+            "x": 264,
+            "y": 360
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364245.623,
+          "target": "schema:pii_intent",
+          "instance_id": "382",
+          "client_timestamp": 1774364245623,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364246.124,
+          "target": "instance:382",
+          "instance_id": "382",
+          "client_timestamp": 1774364246124,
+          "metadata": {}
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364247.736,
+          "target": "schema:pii_intent",
+          "instance_id": "382",
+          "client_timestamp": 1774364247736,
+          "metadata": {
+            "x": 259,
+            "y": 309
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364247.737,
+          "target": "label:pii_intent:Yes, this is a natural query with PII",
+          "instance_id": "382",
+          "client_timestamp": 1774364247737,
+          "metadata": {
+            "x": 259,
+            "y": 309
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364247.737,
+          "target": "schema:pii_intent",
+          "instance_id": "382",
+          "client_timestamp": 1774364247737,
+          "metadata": {
+            "label": "Yes, this is a natural query with PII",
+            "action": "select",
+            "new_value": "Yes, this is a natural query with PII",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364248.239,
+          "target": "instance:382",
+          "instance_id": "382",
+          "client_timestamp": 1774364248239,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364248.787,
+          "target": "next",
+          "instance_id": "382",
+          "client_timestamp": 1774364248787,
+          "metadata": {
+            "from_instance": "382",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364248.787,
+          "target": "instance:382",
+          "instance_id": "382",
+          "client_timestamp": 1774364248787,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364245.8509214,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        },
+        {
+          "timestamp": 1774364248.0107355,
+          "schema_name": "pii_intent",
+          "label_name": "Yes, this is a natural query with PII",
+          "action": "select",
+          "old_value": null,
+          "new_value": "Yes, this is a natural query with PII",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "212": {
+      "instance_id": "212",
+      "session_start": 1774364255.9043965,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364250.687,
+          "target": "instance_load",
+          "instance_id": "212",
+          "client_timestamp": 1774364250687,
+          "metadata": {
+            "instance_id": "212",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364258.19,
+          "target": "schema:pii_intent",
+          "instance_id": "212",
+          "client_timestamp": 1774364258190,
+          "metadata": {
+            "x": 196,
+            "y": 353
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364258.191,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "212",
+          "client_timestamp": 1774364258191,
+          "metadata": {
+            "x": 196,
+            "y": 353
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364258.192,
+          "target": "schema:pii_intent",
+          "instance_id": "212",
+          "client_timestamp": 1774364258192,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364258.695,
+          "target": "instance:212",
+          "instance_id": "212",
+          "client_timestamp": 1774364258695,
+          "metadata": {}
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364260.006,
+          "target": "schema:pii_intent",
+          "instance_id": "212",
+          "client_timestamp": 1774364260006,
+          "metadata": {
+            "x": 155,
+            "y": 296
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364262.692,
+          "target": "schema:pii_intent",
+          "instance_id": "212",
+          "client_timestamp": 1774364262692,
+          "metadata": {
+            "x": 145,
+            "y": 310
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364262.692,
+          "target": "label:pii_intent:Yes, this is a natural query with PII",
+          "instance_id": "212",
+          "client_timestamp": 1774364262692,
+          "metadata": {
+            "x": 145,
+            "y": 310
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364262.692,
+          "target": "schema:pii_intent",
+          "instance_id": "212",
+          "client_timestamp": 1774364262692,
+          "metadata": {
+            "label": "Yes, this is a natural query with PII",
+            "action": "select",
+            "new_value": "Yes, this is a natural query with PII",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364263.194,
+          "target": "instance:212",
+          "instance_id": "212",
+          "client_timestamp": 1774364263194,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364263.606,
+          "target": "next",
+          "instance_id": "212",
+          "client_timestamp": 1774364263606,
+          "metadata": {
+            "from_instance": "212",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364263.606,
+          "target": "instance:212",
+          "instance_id": "212",
+          "client_timestamp": 1774364263606,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364258.4128873,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        },
+        {
+          "timestamp": 1774364262.919256,
+          "schema_name": "pii_intent",
+          "label_name": "Yes, this is a natural query with PII",
+          "action": "select",
+          "old_value": null,
+          "new_value": "Yes, this is a natural query with PII",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "529": {
+      "instance_id": "529",
+      "session_start": 1774364268.6540601,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364266.16,
+          "target": "instance_load",
+          "instance_id": "529",
+          "client_timestamp": 1774364266160,
+          "metadata": {
+            "instance_id": "529",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364268.435,
+          "target": "schema:pii_intent",
+          "instance_id": "529",
+          "client_timestamp": 1774364268435,
+          "metadata": {
+            "x": 193,
+            "y": 344
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364268.436,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "529",
+          "client_timestamp": 1774364268436,
+          "metadata": {
+            "x": 193,
+            "y": 344
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364268.436,
+          "target": "schema:pii_intent",
+          "instance_id": "529",
+          "client_timestamp": 1774364268436,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364268.938,
+          "target": "instance:529",
+          "instance_id": "529",
+          "client_timestamp": 1774364268938,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364269.382,
+          "target": "next",
+          "instance_id": "529",
+          "client_timestamp": 1774364269382,
+          "metadata": {
+            "from_instance": "529",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364269.382,
+          "target": "instance:529",
+          "instance_id": "529",
+          "client_timestamp": 1774364269382,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364268.6540742,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "396": {
+      "instance_id": "396",
+      "session_start": 1774364275.063776,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364271.997,
+          "target": "instance_load",
+          "instance_id": "396",
+          "client_timestamp": 1774364271997,
+          "metadata": {
+            "instance_id": "396",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364274.841,
+          "target": "schema:pii_intent",
+          "instance_id": "396",
+          "client_timestamp": 1774364274841,
+          "metadata": {
+            "x": 216,
+            "y": 354
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364274.841,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "396",
+          "client_timestamp": 1774364274841,
+          "metadata": {
+            "x": 216,
+            "y": 354
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364274.842,
+          "target": "schema:pii_intent",
+          "instance_id": "396",
+          "client_timestamp": 1774364274842,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364275.342,
+          "target": "instance:396",
+          "instance_id": "396",
+          "client_timestamp": 1774364275342,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364275.876,
+          "target": "next",
+          "instance_id": "396",
+          "client_timestamp": 1774364275876,
+          "metadata": {
+            "from_instance": "396",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364275.876,
+          "target": "instance:396",
+          "instance_id": "396",
+          "client_timestamp": 1774364275876,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364275.0637846,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "324": {
+      "instance_id": "324",
+      "session_start": 1774364280.136746,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364277.864,
+          "target": "instance_load",
+          "instance_id": "324",
+          "client_timestamp": 1774364277864,
+          "metadata": {
+            "instance_id": "324",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364279.925,
+          "target": "schema:pii_intent",
+          "instance_id": "324",
+          "client_timestamp": 1774364279925,
+          "metadata": {
+            "x": 158,
+            "y": 346
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364279.926,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "324",
+          "client_timestamp": 1774364279926,
+          "metadata": {
+            "x": 158,
+            "y": 346
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364279.926,
+          "target": "schema:pii_intent",
+          "instance_id": "324",
+          "client_timestamp": 1774364279926,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364280.427,
+          "target": "instance:324",
+          "instance_id": "324",
+          "client_timestamp": 1774364280427,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364280.826,
+          "target": "next",
+          "instance_id": "324",
+          "client_timestamp": 1774364280826,
+          "metadata": {
+            "from_instance": "324",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364280.826,
+          "target": "instance:324",
+          "instance_id": "324",
+          "client_timestamp": 1774364280826,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364280.1367497,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "320": {
+      "instance_id": "320",
+      "session_start": 1774364286.6494362,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364282.92,
+          "target": "instance_load",
+          "instance_id": "320",
+          "client_timestamp": 1774364282920,
+          "metadata": {
+            "instance_id": "320",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364286.434,
+          "target": "schema:pii_intent",
+          "instance_id": "320",
+          "client_timestamp": 1774364286434,
+          "metadata": {
+            "x": 176,
+            "y": 389
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364286.435,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "320",
+          "client_timestamp": 1774364286435,
+          "metadata": {
+            "x": 176,
+            "y": 389
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364286.435,
+          "target": "schema:pii_intent",
+          "instance_id": "320",
+          "client_timestamp": 1774364286435,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364286.936,
+          "target": "instance:320",
+          "instance_id": "320",
+          "client_timestamp": 1774364286936,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364287.695,
+          "target": "next",
+          "instance_id": "320",
+          "client_timestamp": 1774364287695,
+          "metadata": {
+            "from_instance": "320",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364287.695,
+          "target": "instance:320",
+          "instance_id": "320",
+          "client_timestamp": 1774364287695,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364286.6494498,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "674": {
+      "instance_id": "674",
+      "session_start": 1774364294.7628026,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364289.541,
+          "target": "instance_load",
+          "instance_id": "674",
+          "client_timestamp": 1774364289541,
+          "metadata": {
+            "instance_id": "674",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364318.28,
+          "target": "schema:pii_intent",
+          "instance_id": "674",
+          "client_timestamp": 1774364318280,
+          "metadata": {
+            "x": 211,
+            "y": 392
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364318.28,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "674",
+          "client_timestamp": 1774364318280,
+          "metadata": {
+            "x": 211,
+            "y": 392
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364318.281,
+          "target": "schema:pii_intent",
+          "instance_id": "674",
+          "client_timestamp": 1774364318281,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364318.782,
+          "target": "instance:674",
+          "instance_id": "674",
+          "client_timestamp": 1774364318782,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364321.054,
+          "target": "next",
+          "instance_id": "674",
+          "client_timestamp": 1774364321054,
+          "metadata": {
+            "from_instance": "674",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364321.054,
+          "target": "instance:674",
+          "instance_id": "674",
+          "client_timestamp": 1774364321054,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364318.5044227,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "826": {
+      "instance_id": "826",
+      "session_start": 1774364328.4429193,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364323.218,
+          "target": "instance_load",
+          "instance_id": "826",
+          "client_timestamp": 1774364323218,
+          "metadata": {
+            "instance_id": "826",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364329.456,
+          "target": "schema:pii_intent",
+          "instance_id": "826",
+          "client_timestamp": 1774364329456,
+          "metadata": {
+            "x": 120,
+            "y": 359
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364329.457,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "826",
+          "client_timestamp": 1774364329457,
+          "metadata": {
+            "x": 120,
+            "y": 359
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364329.457,
+          "target": "schema:pii_intent",
+          "instance_id": "826",
+          "client_timestamp": 1774364329457,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364329.959,
+          "target": "instance:826",
+          "instance_id": "826",
+          "client_timestamp": 1774364329959,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364333.745,
+          "target": "next",
+          "instance_id": "826",
+          "client_timestamp": 1774364333745,
+          "metadata": {
+            "from_instance": "826",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364333.745,
+          "target": "instance:826",
+          "instance_id": "826",
+          "client_timestamp": 1774364333745,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364329.6797602,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "98": {
+      "instance_id": "98",
+      "session_start": 1774364340.8448186,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364335.561,
+          "target": "instance_load",
+          "instance_id": "98",
+          "client_timestamp": 1774364335561,
+          "metadata": {
+            "instance_id": "98",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364369.358,
+          "target": "schema:pii_intent",
+          "instance_id": "98",
+          "client_timestamp": 1774364369358,
+          "metadata": {
+            "x": 98,
+            "y": 435
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364369.359,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "98",
+          "client_timestamp": 1774364369359,
+          "metadata": {
+            "x": 98,
+            "y": 435
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364369.361,
+          "target": "schema:pii_intent",
+          "instance_id": "98",
+          "client_timestamp": 1774364369361,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364369.863,
+          "target": "instance:98",
+          "instance_id": "98",
+          "client_timestamp": 1774364369863,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364370.329,
+          "target": "next",
+          "instance_id": "98",
+          "client_timestamp": 1774364370329,
+          "metadata": {
+            "from_instance": "98",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364370.329,
+          "target": "instance:98",
+          "instance_id": "98",
+          "client_timestamp": 1774364370329,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364369.5769703,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "598": {
+      "instance_id": "598",
+      "session_start": 1774364375.3334007,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364372.081,
+          "target": "instance_load",
+          "instance_id": "598",
+          "client_timestamp": 1774364372081,
+          "metadata": {
+            "instance_id": "598",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364375.113,
+          "target": "schema:pii_intent",
+          "instance_id": "598",
+          "client_timestamp": 1774364375113,
+          "metadata": {
+            "x": 159,
+            "y": 309
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364375.114,
+          "target": "label:pii_intent:Yes, this is a natural query with PII",
+          "instance_id": "598",
+          "client_timestamp": 1774364375114,
+          "metadata": {
+            "x": 159,
+            "y": 309
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364375.114,
+          "target": "schema:pii_intent",
+          "instance_id": "598",
+          "client_timestamp": 1774364375114,
+          "metadata": {
+            "label": "Yes, this is a natural query with PII",
+            "action": "select",
+            "old_value": null,
+            "new_value": "Yes, this is a natural query with PII",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364375.615,
+          "target": "instance:598",
+          "instance_id": "598",
+          "client_timestamp": 1774364375615,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364376.002,
+          "target": "next",
+          "instance_id": "598",
+          "client_timestamp": 1774364376002,
+          "metadata": {
+            "from_instance": "598",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364376.002,
+          "target": "instance:598",
+          "instance_id": "598",
+          "client_timestamp": 1774364376002,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364375.3334162,
+          "schema_name": "pii_intent",
+          "label_name": "Yes, this is a natural query with PII",
+          "action": "select",
+          "old_value": null,
+          "new_value": "Yes, this is a natural query with PII",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "78": {
+      "instance_id": "78",
+      "session_start": 1774364382.5272064,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364378.02,
+          "target": "instance_load",
+          "instance_id": "78",
+          "client_timestamp": 1774364378020,
+          "metadata": {
+            "instance_id": "78",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364382.238,
+          "target": "schema:pii_intent",
+          "instance_id": "78",
+          "client_timestamp": 1774364382238,
+          "metadata": {
+            "x": 203,
+            "y": 357
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364382.239,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "78",
+          "client_timestamp": 1774364382239,
+          "metadata": {
+            "x": 203,
+            "y": 357
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364382.239,
+          "target": "schema:pii_intent",
+          "instance_id": "78",
+          "client_timestamp": 1774364382239,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364382.741,
+          "target": "instance:78",
+          "instance_id": "78",
+          "client_timestamp": 1774364382741,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364383.384,
+          "target": "next",
+          "instance_id": "78",
+          "client_timestamp": 1774364383384,
+          "metadata": {
+            "from_instance": "78",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364383.384,
+          "target": "instance:78",
+          "instance_id": "78",
+          "client_timestamp": 1774364383384,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364382.5272098,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "459": {
+      "instance_id": "459",
+      "session_start": 1774364387.4338274,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364385.129,
+          "target": "instance_load",
+          "instance_id": "459",
+          "client_timestamp": 1774364385129,
+          "metadata": {
+            "instance_id": "459",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364387.219,
+          "target": "schema:pii_intent",
+          "instance_id": "459",
+          "client_timestamp": 1774364387219,
+          "metadata": {
+            "x": 236,
+            "y": 352
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364387.22,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "459",
+          "client_timestamp": 1774364387220,
+          "metadata": {
+            "x": 236,
+            "y": 352
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364387.22,
+          "target": "schema:pii_intent",
+          "instance_id": "459",
+          "client_timestamp": 1774364387220,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364387.721,
+          "target": "instance:459",
+          "instance_id": "459",
+          "client_timestamp": 1774364387721,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364388.05,
+          "target": "next",
+          "instance_id": "459",
+          "client_timestamp": 1774364388050,
+          "metadata": {
+            "from_instance": "459",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364388.05,
+          "target": "instance:459",
+          "instance_id": "459",
+          "client_timestamp": 1774364388050,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364387.4338312,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "1061": {
+      "instance_id": "1061",
+      "session_start": 1774364394.172918,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364390.745,
+          "target": "instance_load",
+          "instance_id": "1061",
+          "client_timestamp": 1774364390745,
+          "metadata": {
+            "instance_id": "1061",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364393.956,
+          "target": "schema:pii_intent",
+          "instance_id": "1061",
+          "client_timestamp": 1774364393956,
+          "metadata": {
+            "x": 105,
+            "y": 387
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364393.957,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "1061",
+          "client_timestamp": 1774364393957,
+          "metadata": {
+            "x": 105,
+            "y": 387
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364393.957,
+          "target": "schema:pii_intent",
+          "instance_id": "1061",
+          "client_timestamp": 1774364393957,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364394.458,
+          "target": "instance:1061",
+          "instance_id": "1061",
+          "client_timestamp": 1774364394458,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364394.823,
+          "target": "next",
+          "instance_id": "1061",
+          "client_timestamp": 1774364394823,
+          "metadata": {
+            "from_instance": "1061",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364394.823,
+          "target": "instance:1061",
+          "instance_id": "1061",
+          "client_timestamp": 1774364394823,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364394.1729233,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "182": {
+      "instance_id": "182",
+      "session_start": 1774364400.6441748,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364397.127,
+          "target": "instance_load",
+          "instance_id": "182",
+          "client_timestamp": 1774364397127,
+          "metadata": {
+            "instance_id": "182",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364400.329,
+          "target": "schema:pii_intent",
+          "instance_id": "182",
+          "client_timestamp": 1774364400329,
+          "metadata": {
+            "x": 141,
+            "y": 309
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364400.33,
+          "target": "label:pii_intent:Yes, this is a natural query with PII",
+          "instance_id": "182",
+          "client_timestamp": 1774364400330,
+          "metadata": {
+            "x": 141,
+            "y": 309
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364400.331,
+          "target": "schema:pii_intent",
+          "instance_id": "182",
+          "client_timestamp": 1774364400331,
+          "metadata": {
+            "label": "Yes, this is a natural query with PII",
+            "action": "select",
+            "old_value": null,
+            "new_value": "Yes, this is a natural query with PII",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364400.832,
+          "target": "instance:182",
+          "instance_id": "182",
+          "client_timestamp": 1774364400832,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364401.169,
+          "target": "next",
+          "instance_id": "182",
+          "client_timestamp": 1774364401169,
+          "metadata": {
+            "from_instance": "182",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364401.169,
+          "target": "instance:182",
+          "instance_id": "182",
+          "client_timestamp": 1774364401169,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364400.6441839,
+          "schema_name": "pii_intent",
+          "label_name": "Yes, this is a natural query with PII",
+          "action": "select",
+          "old_value": null,
+          "new_value": "Yes, this is a natural query with PII",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "666": {
+      "instance_id": "666",
+      "session_start": 1774364407.656069,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364403.196,
+          "target": "instance_load",
+          "instance_id": "666",
+          "client_timestamp": 1774364403196,
+          "metadata": {
+            "instance_id": "666",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364405.699,
+          "target": "schema:pii_intent",
+          "instance_id": "666",
+          "client_timestamp": 1774364405699,
+          "metadata": {
+            "x": 115,
+            "y": 338
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364407.439,
+          "target": "schema:pii_intent",
+          "instance_id": "666",
+          "client_timestamp": 1774364407439,
+          "metadata": {
+            "x": 192,
+            "y": 343
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364407.44,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "666",
+          "client_timestamp": 1774364407440,
+          "metadata": {
+            "x": 192,
+            "y": 343
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364407.44,
+          "target": "schema:pii_intent",
+          "instance_id": "666",
+          "client_timestamp": 1774364407440,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364407.941,
+          "target": "instance:666",
+          "instance_id": "666",
+          "client_timestamp": 1774364407941,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364409.059,
+          "target": "next",
+          "instance_id": "666",
+          "client_timestamp": 1774364409059,
+          "metadata": {
+            "from_instance": "666",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364409.059,
+          "target": "instance:666",
+          "instance_id": "666",
+          "client_timestamp": 1774364409059,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364407.6560862,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "968": {
+      "instance_id": "968",
+      "session_start": 1774364414.1962447,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364411.352,
+          "target": "instance_load",
+          "instance_id": "968",
+          "client_timestamp": 1774364411352,
+          "metadata": {
+            "instance_id": "968",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364413.967,
+          "target": "schema:pii_intent",
+          "instance_id": "968",
+          "client_timestamp": 1774364413967,
+          "metadata": {
+            "x": 211,
+            "y": 349
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364413.968,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "968",
+          "client_timestamp": 1774364413968,
+          "metadata": {
+            "x": 211,
+            "y": 349
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364413.969,
+          "target": "schema:pii_intent",
+          "instance_id": "968",
+          "client_timestamp": 1774364413969,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364414.47,
+          "target": "instance:968",
+          "instance_id": "968",
+          "client_timestamp": 1774364414470,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364414.908,
+          "target": "next",
+          "instance_id": "968",
+          "client_timestamp": 1774364414908,
+          "metadata": {
+            "from_instance": "968",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364414.908,
+          "target": "instance:968",
+          "instance_id": "968",
+          "client_timestamp": 1774364414908,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364414.1962533,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "138": {
+      "instance_id": "138",
+      "session_start": 1774364426.6854908,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364423.318,
+          "target": "instance_load",
+          "instance_id": "138",
+          "client_timestamp": 1774364423318,
+          "metadata": {
+            "instance_id": "138",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364426.462,
+          "target": "schema:pii_intent",
+          "instance_id": "138",
+          "client_timestamp": 1774364426462,
+          "metadata": {
+            "x": 214,
+            "y": 361
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364426.463,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "138",
+          "client_timestamp": 1774364426463,
+          "metadata": {
+            "x": 214,
+            "y": 361
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364426.463,
+          "target": "schema:pii_intent",
+          "instance_id": "138",
+          "client_timestamp": 1774364426463,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364426.964,
+          "target": "instance:138",
+          "instance_id": "138",
+          "client_timestamp": 1774364426964,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364428.007,
+          "target": "next",
+          "instance_id": "138",
+          "client_timestamp": 1774364428007,
+          "metadata": {
+            "from_instance": "138",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364428.007,
+          "target": "instance:138",
+          "instance_id": "138",
+          "client_timestamp": 1774364428007,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364426.6854951,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "153": {
+      "instance_id": "153",
+      "session_start": 1774364435.500726,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364430.29,
+          "target": "instance_load",
+          "instance_id": "153",
+          "client_timestamp": 1774364430290,
+          "metadata": {
+            "instance_id": "153",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364465.895,
+          "target": "schema:pii_intent",
+          "instance_id": "153",
+          "client_timestamp": 1774364465895,
+          "metadata": {
+            "x": 183,
+            "y": 412
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364465.896,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "153",
+          "client_timestamp": 1774364465896,
+          "metadata": {
+            "x": 183,
+            "y": 412
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364465.897,
+          "target": "schema:pii_intent",
+          "instance_id": "153",
+          "client_timestamp": 1774364465897,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364466.4,
+          "target": "instance:153",
+          "instance_id": "153",
+          "client_timestamp": 1774364466400,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364466.66,
+          "target": "next",
+          "instance_id": "153",
+          "client_timestamp": 1774364466660,
+          "metadata": {
+            "from_instance": "153",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364466.66,
+          "target": "instance:153",
+          "instance_id": "153",
+          "client_timestamp": 1774364466660,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364466.1791267,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "969": {
+      "instance_id": "969",
+      "session_start": 1774364473.9638705,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364468.708,
+          "target": "instance_load",
+          "instance_id": "969",
+          "client_timestamp": 1774364468708,
+          "metadata": {
+            "instance_id": "969",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364473.874,
+          "target": "schema:pii_intent",
+          "instance_id": "969",
+          "client_timestamp": 1774364473874,
+          "metadata": {
+            "x": 112,
+            "y": 380
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364473.874,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "969",
+          "client_timestamp": 1774364473874,
+          "metadata": {
+            "x": 112,
+            "y": 380
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364473.875,
+          "target": "schema:pii_intent",
+          "instance_id": "969",
+          "client_timestamp": 1774364473875,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364474.376,
+          "target": "instance:969",
+          "instance_id": "969",
+          "client_timestamp": 1774364474376,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364474.67,
+          "target": "next",
+          "instance_id": "969",
+          "client_timestamp": 1774364474670,
+          "metadata": {
+            "from_instance": "969",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364474.671,
+          "target": "instance:969",
+          "instance_id": "969",
+          "client_timestamp": 1774364474671,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364474.093531,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "1055": {
+      "instance_id": "1055",
+      "session_start": 1774364490.1984644,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364484.986,
+          "target": "instance_load",
+          "instance_id": "1055",
+          "client_timestamp": 1774364484986,
+          "metadata": {
+            "instance_id": "1055",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364490.915,
+          "target": "schema:pii_intent",
+          "instance_id": "1055",
+          "client_timestamp": 1774364490915,
+          "metadata": {
+            "x": 142,
+            "y": 356
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364490.916,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "1055",
+          "client_timestamp": 1774364490916,
+          "metadata": {
+            "x": 142,
+            "y": 356
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364490.916,
+          "target": "schema:pii_intent",
+          "instance_id": "1055",
+          "client_timestamp": 1774364490916,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364491.417,
+          "target": "instance:1055",
+          "instance_id": "1055",
+          "client_timestamp": 1774364491417,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364491.801,
+          "target": "next",
+          "instance_id": "1055",
+          "client_timestamp": 1774364491801,
+          "metadata": {
+            "from_instance": "1055",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364491.801,
+          "target": "instance:1055",
+          "instance_id": "1055",
+          "client_timestamp": 1774364491801,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364491.168235,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "432": {
+      "instance_id": "432",
+      "session_start": 1774364499.2581944,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364494.012,
+          "target": "instance_load",
+          "instance_id": "432",
+          "client_timestamp": 1774364494012,
+          "metadata": {
+            "instance_id": "432",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364510.113,
+          "target": "schema:pii_intent",
+          "instance_id": "432",
+          "client_timestamp": 1774364510113,
+          "metadata": {
+            "x": 149,
+            "y": 354
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364510.113,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "432",
+          "client_timestamp": 1774364510113,
+          "metadata": {
+            "x": 149,
+            "y": 354
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364510.114,
+          "target": "schema:pii_intent",
+          "instance_id": "432",
+          "client_timestamp": 1774364510114,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364510.615,
+          "target": "instance:432",
+          "instance_id": "432",
+          "client_timestamp": 1774364510615,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364512.317,
+          "target": "next",
+          "instance_id": "432",
+          "client_timestamp": 1774364512317,
+          "metadata": {
+            "from_instance": "432",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364512.317,
+          "target": "instance:432",
+          "instance_id": "432",
+          "client_timestamp": 1774364512317,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364510.3275175,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "890": {
+      "instance_id": "890",
+      "session_start": 1774364516.418525,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364514.23,
+          "target": "instance_load",
+          "instance_id": "890",
+          "client_timestamp": 1774364514230,
+          "metadata": {
+            "instance_id": "890",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364516.204,
+          "target": "schema:pii_intent",
+          "instance_id": "890",
+          "client_timestamp": 1774364516204,
+          "metadata": {
+            "x": 243,
+            "y": 342
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364516.204,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "890",
+          "client_timestamp": 1774364516204,
+          "metadata": {
+            "x": 243,
+            "y": 342
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364516.205,
+          "target": "schema:pii_intent",
+          "instance_id": "890",
+          "client_timestamp": 1774364516205,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364516.708,
+          "target": "instance:890",
+          "instance_id": "890",
+          "client_timestamp": 1774364516708,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364517.061,
+          "target": "next",
+          "instance_id": "890",
+          "client_timestamp": 1774364517061,
+          "metadata": {
+            "from_instance": "890",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364517.061,
+          "target": "instance:890",
+          "instance_id": "890",
+          "client_timestamp": 1774364517061,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364516.4185302,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "367": {
+      "instance_id": "367",
+      "session_start": 1774364530.1425142,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364524.927,
+          "target": "instance_load",
+          "instance_id": "367",
+          "client_timestamp": 1774364524927,
+          "metadata": {
+            "instance_id": "367",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364537.324,
+          "target": "schema:pii_intent",
+          "instance_id": "367",
+          "client_timestamp": 1774364537324,
+          "metadata": {
+            "x": 215,
+            "y": 314
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364537.325,
+          "target": "label:pii_intent:Yes, this is a natural query with PII",
+          "instance_id": "367",
+          "client_timestamp": 1774364537325,
+          "metadata": {
+            "x": 215,
+            "y": 314
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364537.326,
+          "target": "schema:pii_intent",
+          "instance_id": "367",
+          "client_timestamp": 1774364537326,
+          "metadata": {
+            "label": "Yes, this is a natural query with PII",
+            "action": "select",
+            "old_value": null,
+            "new_value": "Yes, this is a natural query with PII",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364537.827,
+          "target": "instance:367",
+          "instance_id": "367",
+          "client_timestamp": 1774364537827,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364538.168,
+          "target": "next",
+          "instance_id": "367",
+          "client_timestamp": 1774364538168,
+          "metadata": {
+            "from_instance": "367",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364538.168,
+          "target": "instance:367",
+          "instance_id": "367",
+          "client_timestamp": 1774364538168,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364537.5590718,
+          "schema_name": "pii_intent",
+          "label_name": "Yes, this is a natural query with PII",
+          "action": "select",
+          "old_value": null,
+          "new_value": "Yes, this is a natural query with PII",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "126": {
+      "instance_id": "126",
+      "session_start": 1774364554.9017804,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364549.503,
+          "target": "instance_load",
+          "instance_id": "126",
+          "client_timestamp": 1774364549503,
+          "metadata": {
+            "instance_id": "126",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364594.984,
+          "target": "schema:pii_intent",
+          "instance_id": "126",
+          "client_timestamp": 1774364594984,
+          "metadata": {
+            "x": 208,
+            "y": 311
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364594.985,
+          "target": "label:pii_intent:Yes, this is a natural query with PII",
+          "instance_id": "126",
+          "client_timestamp": 1774364594985,
+          "metadata": {
+            "x": 208,
+            "y": 311
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364594.986,
+          "target": "schema:pii_intent",
+          "instance_id": "126",
+          "client_timestamp": 1774364594986,
+          "metadata": {
+            "label": "Yes, this is a natural query with PII",
+            "action": "select",
+            "old_value": null,
+            "new_value": "Yes, this is a natural query with PII",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364595.487,
+          "target": "instance:126",
+          "instance_id": "126",
+          "client_timestamp": 1774364595487,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364595.941,
+          "target": "next",
+          "instance_id": "126",
+          "client_timestamp": 1774364595941,
+          "metadata": {
+            "from_instance": "126",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364595.942,
+          "target": "instance:126",
+          "instance_id": "126",
+          "client_timestamp": 1774364595942,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364595.2053154,
+          "schema_name": "pii_intent",
+          "label_name": "Yes, this is a natural query with PII",
+          "action": "select",
+          "old_value": null,
+          "new_value": "Yes, this is a natural query with PII",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "292": {
+      "instance_id": "292",
+      "session_start": 1774364602.8844285,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364597.662,
+          "target": "instance_load",
+          "instance_id": "292",
+          "client_timestamp": 1774364597662,
+          "metadata": {
+            "instance_id": "292",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364602.799,
+          "target": "schema:pii_intent",
+          "instance_id": "292",
+          "client_timestamp": 1774364602799,
+          "metadata": {
+            "x": 208,
+            "y": 353
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364602.8,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "292",
+          "client_timestamp": 1774364602800,
+          "metadata": {
+            "x": 208,
+            "y": 353
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364602.8,
+          "target": "schema:pii_intent",
+          "instance_id": "292",
+          "client_timestamp": 1774364602800,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364603.301,
+          "target": "instance:292",
+          "instance_id": "292",
+          "client_timestamp": 1774364603301,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364603.701,
+          "target": "next",
+          "instance_id": "292",
+          "client_timestamp": 1774364603701,
+          "metadata": {
+            "from_instance": "292",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364603.701,
+          "target": "instance:292",
+          "instance_id": "292",
+          "client_timestamp": 1774364603701,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364603.01256,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "276": {
+      "instance_id": "276",
+      "session_start": 1774364610.7299209,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364605.516,
+          "target": "instance_load",
+          "instance_id": "276",
+          "client_timestamp": 1774364605516,
+          "metadata": {
+            "instance_id": "276",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364611.89,
+          "target": "schema:pii_intent",
+          "instance_id": "276",
+          "client_timestamp": 1774364611890,
+          "metadata": {
+            "x": 228,
+            "y": 355
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364611.891,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "276",
+          "client_timestamp": 1774364611891,
+          "metadata": {
+            "x": 228,
+            "y": 355
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364611.892,
+          "target": "schema:pii_intent",
+          "instance_id": "276",
+          "client_timestamp": 1774364611892,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364612.394,
+          "target": "instance:276",
+          "instance_id": "276",
+          "client_timestamp": 1774364612394,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364613.387,
+          "target": "next",
+          "instance_id": "276",
+          "client_timestamp": 1774364613387,
+          "metadata": {
+            "from_instance": "276",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364613.387,
+          "target": "instance:276",
+          "instance_id": "276",
+          "client_timestamp": 1774364613387,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364612.1137545,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "101": {
+      "instance_id": "101",
+      "session_start": 1774364620.3867447,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364615.076,
+          "target": "instance_load",
+          "instance_id": "101",
+          "client_timestamp": 1774364615076,
+          "metadata": {
+            "instance_id": "101",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364634.854,
+          "target": "schema:pii_intent",
+          "instance_id": "101",
+          "client_timestamp": 1774364634854,
+          "metadata": {
+            "x": 213,
+            "y": 346
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364634.855,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "101",
+          "client_timestamp": 1774364634855,
+          "metadata": {
+            "x": 213,
+            "y": 346
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364634.856,
+          "target": "schema:pii_intent",
+          "instance_id": "101",
+          "client_timestamp": 1774364634856,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364635.357,
+          "target": "instance:101",
+          "instance_id": "101",
+          "client_timestamp": 1774364635357,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364636.322,
+          "target": "next",
+          "instance_id": "101",
+          "client_timestamp": 1774364636322,
+          "metadata": {
+            "from_instance": "101",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364636.322,
+          "target": "instance:101",
+          "instance_id": "101",
+          "client_timestamp": 1774364636322,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364635.144604,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "352": {
+      "instance_id": "352",
+      "session_start": 1774364643.3354037,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364638.078,
+          "target": "instance_load",
+          "instance_id": "352",
+          "client_timestamp": 1774364638078,
+          "metadata": {
+            "instance_id": "352",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364646.105,
+          "target": "schema:pii_intent",
+          "instance_id": "352",
+          "client_timestamp": 1774364646105,
+          "metadata": {
+            "x": 110,
+            "y": 503
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364646.106,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "352",
+          "client_timestamp": 1774364646106,
+          "metadata": {
+            "x": 110,
+            "y": 503
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364646.107,
+          "target": "schema:pii_intent",
+          "instance_id": "352",
+          "client_timestamp": 1774364646107,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364646.608,
+          "target": "instance:352",
+          "instance_id": "352",
+          "client_timestamp": 1774364646608,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364646.928,
+          "target": "next",
+          "instance_id": "352",
+          "client_timestamp": 1774364646928,
+          "metadata": {
+            "from_instance": "352",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364646.928,
+          "target": "instance:352",
+          "instance_id": "352",
+          "client_timestamp": 1774364646928,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364646.3246918,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "307": {
+      "instance_id": "307",
+      "session_start": 1774364653.1665847,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364648.782,
+          "target": "instance_load",
+          "instance_id": "307",
+          "client_timestamp": 1774364648782,
+          "metadata": {
+            "instance_id": "307",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364652.928,
+          "target": "schema:pii_intent",
+          "instance_id": "307",
+          "client_timestamp": 1774364652928,
+          "metadata": {
+            "x": 133,
+            "y": 344
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364652.928,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "307",
+          "client_timestamp": 1774364652928,
+          "metadata": {
+            "x": 133,
+            "y": 344
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364652.929,
+          "target": "schema:pii_intent",
+          "instance_id": "307",
+          "client_timestamp": 1774364652929,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364653.431,
+          "target": "instance:307",
+          "instance_id": "307",
+          "client_timestamp": 1774364653431,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364653.903,
+          "target": "next",
+          "instance_id": "307",
+          "client_timestamp": 1774364653903,
+          "metadata": {
+            "from_instance": "307",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364653.903,
+          "target": "instance:307",
+          "instance_id": "307",
+          "client_timestamp": 1774364653903,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364653.166601,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "148": {
+      "instance_id": "148",
+      "session_start": 1774364659.5151017,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364655.646,
+          "target": "instance_load",
+          "instance_id": "148",
+          "client_timestamp": 1774364655646,
+          "metadata": {
+            "instance_id": "148",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364659.251,
+          "target": "schema:pii_intent",
+          "instance_id": "148",
+          "client_timestamp": 1774364659251,
+          "metadata": {
+            "x": 213,
+            "y": 355
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364659.251,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "148",
+          "client_timestamp": 1774364659251,
+          "metadata": {
+            "x": 213,
+            "y": 355
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364659.252,
+          "target": "schema:pii_intent",
+          "instance_id": "148",
+          "client_timestamp": 1774364659252,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364659.752,
+          "target": "instance:148",
+          "instance_id": "148",
+          "client_timestamp": 1774364659752,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364660.143,
+          "target": "next",
+          "instance_id": "148",
+          "client_timestamp": 1774364660143,
+          "metadata": {
+            "from_instance": "148",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364660.143,
+          "target": "instance:148",
+          "instance_id": "148",
+          "client_timestamp": 1774364660143,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364659.5151076,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "696": {
+      "instance_id": "696",
+      "session_start": 1774364664.630986,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364662.072,
+          "target": "instance_load",
+          "instance_id": "696",
+          "client_timestamp": 1774364662072,
+          "metadata": {
+            "instance_id": "696",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364664.416,
+          "target": "schema:pii_intent",
+          "instance_id": "696",
+          "client_timestamp": 1774364664416,
+          "metadata": {
+            "x": 245,
+            "y": 311
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364664.417,
+          "target": "label:pii_intent:Yes, this is a natural query with PII",
+          "instance_id": "696",
+          "client_timestamp": 1774364664417,
+          "metadata": {
+            "x": 245,
+            "y": 311
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364664.417,
+          "target": "schema:pii_intent",
+          "instance_id": "696",
+          "client_timestamp": 1774364664417,
+          "metadata": {
+            "label": "Yes, this is a natural query with PII",
+            "action": "select",
+            "old_value": null,
+            "new_value": "Yes, this is a natural query with PII",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364664.918,
+          "target": "instance:696",
+          "instance_id": "696",
+          "client_timestamp": 1774364664918,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364665.485,
+          "target": "next",
+          "instance_id": "696",
+          "client_timestamp": 1774364665485,
+          "metadata": {
+            "from_instance": "696",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364665.485,
+          "target": "instance:696",
+          "instance_id": "696",
+          "client_timestamp": 1774364665485,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364664.6309934,
+          "schema_name": "pii_intent",
+          "label_name": "Yes, this is a natural query with PII",
+          "action": "select",
+          "old_value": null,
+          "new_value": "Yes, this is a natural query with PII",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "368": {
+      "instance_id": "368",
+      "session_start": 1774364672.4554174,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364667.223,
+          "target": "instance_load",
+          "instance_id": "368",
+          "client_timestamp": 1774364667223,
+          "metadata": {
+            "instance_id": "368",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364676.974,
+          "target": "schema:pii_intent",
+          "instance_id": "368",
+          "client_timestamp": 1774364676974,
+          "metadata": {
+            "x": 136,
+            "y": 495
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364676.975,
+          "target": "label:pii_intent:Yes, this is a natural query with PII",
+          "instance_id": "368",
+          "client_timestamp": 1774364676975,
+          "metadata": {
+            "x": 136,
+            "y": 495
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364676.976,
+          "target": "schema:pii_intent",
+          "instance_id": "368",
+          "client_timestamp": 1774364676976,
+          "metadata": {
+            "label": "Yes, this is a natural query with PII",
+            "action": "select",
+            "old_value": null,
+            "new_value": "Yes, this is a natural query with PII",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364677.477,
+          "target": "instance:368",
+          "instance_id": "368",
+          "client_timestamp": 1774364677477,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364677.993,
+          "target": "next",
+          "instance_id": "368",
+          "client_timestamp": 1774364677993,
+          "metadata": {
+            "from_instance": "368",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364677.993,
+          "target": "instance:368",
+          "instance_id": "368",
+          "client_timestamp": 1774364677993,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364677.2290635,
+          "schema_name": "pii_intent",
+          "label_name": "Yes, this is a natural query with PII",
+          "action": "select",
+          "old_value": null,
+          "new_value": "Yes, this is a natural query with PII",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "3": {
+      "instance_id": "3",
+      "session_start": 1774364685.0004714,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364679.786,
+          "target": "instance_load",
+          "instance_id": "3",
+          "client_timestamp": 1774364679786,
+          "metadata": {
+            "instance_id": "3",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364690.861,
+          "target": "schema:pii_intent",
+          "instance_id": "3",
+          "client_timestamp": 1774364690861,
+          "metadata": {
+            "x": 189,
+            "y": 363
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364691.269,
+          "target": "schema:pii_intent",
+          "instance_id": "3",
+          "client_timestamp": 1774364691269,
+          "metadata": {
+            "x": 186,
+            "y": 374
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364691.27,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "3",
+          "client_timestamp": 1774364691270,
+          "metadata": {
+            "x": 186,
+            "y": 374
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364691.27,
+          "target": "schema:pii_intent",
+          "instance_id": "3",
+          "client_timestamp": 1774364691270,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364691.772,
+          "target": "instance:3",
+          "instance_id": "3",
+          "client_timestamp": 1774364691772,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364692.019,
+          "target": "next",
+          "instance_id": "3",
+          "client_timestamp": 1774364692019,
+          "metadata": {
+            "from_instance": "3",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364692.019,
+          "target": "instance:3",
+          "instance_id": "3",
+          "client_timestamp": 1774364692019,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364691.4884021,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "130": {
+      "instance_id": "130",
+      "session_start": 1774364706.104933,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364700.858,
+          "target": "instance_load",
+          "instance_id": "130",
+          "client_timestamp": 1774364700858,
+          "metadata": {
+            "instance_id": "130",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364714.007,
+          "target": "schema:pii_intent",
+          "instance_id": "130",
+          "client_timestamp": 1774364714007,
+          "metadata": {
+            "x": 232,
+            "y": 362
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364714.007,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "130",
+          "client_timestamp": 1774364714007,
+          "metadata": {
+            "x": 232,
+            "y": 362
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364714.008,
+          "target": "schema:pii_intent",
+          "instance_id": "130",
+          "client_timestamp": 1774364714008,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364714.509,
+          "target": "instance:130",
+          "instance_id": "130",
+          "client_timestamp": 1774364714509,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364715.102,
+          "target": "next",
+          "instance_id": "130",
+          "client_timestamp": 1774364715102,
+          "metadata": {
+            "from_instance": "130",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364715.102,
+          "target": "instance:130",
+          "instance_id": "130",
+          "client_timestamp": 1774364715102,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364714.4028673,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "190": {
+      "instance_id": "190",
+      "session_start": 1774364720.4968364,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364717.228,
+          "target": "instance_load",
+          "instance_id": "190",
+          "client_timestamp": 1774364717228,
+          "metadata": {
+            "instance_id": "190",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364720.283,
+          "target": "schema:pii_intent",
+          "instance_id": "190",
+          "client_timestamp": 1774364720283,
+          "metadata": {
+            "x": 304,
+            "y": 354
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364720.284,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "190",
+          "client_timestamp": 1774364720284,
+          "metadata": {
+            "x": 304,
+            "y": 354
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364720.285,
+          "target": "schema:pii_intent",
+          "instance_id": "190",
+          "client_timestamp": 1774364720285,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364720.787,
+          "target": "instance:190",
+          "instance_id": "190",
+          "client_timestamp": 1774364720787,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364721.15,
+          "target": "next",
+          "instance_id": "190",
+          "client_timestamp": 1774364721150,
+          "metadata": {
+            "from_instance": "190",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364721.15,
+          "target": "instance:190",
+          "instance_id": "190",
+          "client_timestamp": 1774364721150,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364720.4968405,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "321": {
+      "instance_id": "321",
+      "session_start": 1774364734.9399567,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364729.726,
+          "target": "instance_load",
+          "instance_id": "321",
+          "client_timestamp": 1774364729726,
+          "metadata": {
+            "instance_id": "321",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364735.366,
+          "target": "schema:pii_intent",
+          "instance_id": "321",
+          "client_timestamp": 1774364735366,
+          "metadata": {
+            "x": 276,
+            "y": 453
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364735.366,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "321",
+          "client_timestamp": 1774364735366,
+          "metadata": {
+            "x": 276,
+            "y": 453
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364735.367,
+          "target": "schema:pii_intent",
+          "instance_id": "321",
+          "client_timestamp": 1774364735367,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364735.868,
+          "target": "instance:321",
+          "instance_id": "321",
+          "client_timestamp": 1774364735868,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364736.283,
+          "target": "next",
+          "instance_id": "321",
+          "client_timestamp": 1774364736283,
+          "metadata": {
+            "from_instance": "321",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364736.283,
+          "target": "instance:321",
+          "instance_id": "321",
+          "client_timestamp": 1774364736283,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364735.5988066,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "472": {
+      "instance_id": "472",
+      "session_start": 1774364742.1893196,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364738.644,
+          "target": "instance_load",
+          "instance_id": "472",
+          "client_timestamp": 1774364738644,
+          "metadata": {
+            "instance_id": "472",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364741.968,
+          "target": "schema:pii_intent",
+          "instance_id": "472",
+          "client_timestamp": 1774364741968,
+          "metadata": {
+            "x": 318,
+            "y": 350
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1774364741.969,
+          "target": "label:pii_intent:No, this query does not meet the requirements",
+          "instance_id": "472",
+          "client_timestamp": 1774364741969,
+          "metadata": {
+            "x": 318,
+            "y": 350
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1774364741.969,
+          "target": "schema:pii_intent",
+          "instance_id": "472",
+          "client_timestamp": 1774364741969,
+          "metadata": {
+            "label": "No, this query does not meet the requirements",
+            "action": "select",
+            "old_value": null,
+            "new_value": "No, this query does not meet the requirements",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364742.471,
+          "target": "instance:472",
+          "instance_id": "472",
+          "client_timestamp": 1774364742471,
+          "metadata": {}
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1774364743.068,
+          "target": "next",
+          "instance_id": "472",
+          "client_timestamp": 1774364743068,
+          "metadata": {
+            "from_instance": "472",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1774364743.068,
+          "target": "instance:472",
+          "instance_id": "472",
+          "client_timestamp": 1774364743068,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1774364742.189331,
+          "schema_name": "pii_intent",
+          "label_name": "No, this query does not meet the requirements",
+          "action": "select",
+          "old_value": null,
+          "new_value": "No, this query does not meet the requirements",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    }
+  },
+  "instance_id_to_label_to_value": {
+    "727": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "545": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "510": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "440": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "55": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "713": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "858": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "317": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "721": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "704": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "974": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "1074": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "610": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "382": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "Yes, this is a natural query with PII"
+        },
+        "Yes, this is a natural query with PII"
+      ]
+    ],
+    "212": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "Yes, this is a natural query with PII"
+        },
+        "Yes, this is a natural query with PII"
+      ]
+    ],
+    "529": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "396": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "324": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "320": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "674": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "826": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "98": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "598": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "Yes, this is a natural query with PII"
+        },
+        "Yes, this is a natural query with PII"
+      ]
+    ],
+    "78": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "459": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "1061": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "182": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "Yes, this is a natural query with PII"
+        },
+        "Yes, this is a natural query with PII"
+      ]
+    ],
+    "666": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "968": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "138": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "153": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "969": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "1055": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "432": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "890": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "367": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "Yes, this is a natural query with PII"
+        },
+        "Yes, this is a natural query with PII"
+      ]
+    ],
+    "126": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "Yes, this is a natural query with PII"
+        },
+        "Yes, this is a natural query with PII"
+      ]
+    ],
+    "292": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "276": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "101": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "352": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "307": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "148": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "696": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "Yes, this is a natural query with PII"
+        },
+        "Yes, this is a natural query with PII"
+      ]
+    ],
+    "368": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "Yes, this is a natural query with PII"
+        },
+        "Yes, this is a natural query with PII"
+      ]
+    ],
+    "3": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "130": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "190": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "321": [
+      [
+        {
+          "schema": "pii_intent",
+          "name": "No, this query does not meet the requirements"
+        },
+        "No, this query does not meet the requirements"
+      ]
+    ],
+    "472": []
+  },
+  "instance_id_to_span_to_value": {},
+  "phase_to_page_to_label_to_value": {
+    "done": {
+      "null": [
+        [
+          {
+            "schema": "pii_intent",
+            "name": "No, this query does not meet the requirements"
+          },
+          "No, this query does not meet the requirements"
+        ]
+      ]
+    }
+  },
+  "phase_to_page_to_span_to_value": {},
+  "training_state": {
+    "completed_questions": {},
+    "total_correct": 0,
+    "total_attempts": 0,
+    "total_mistakes": 0,
+    "passed": false,
+    "failed": false,
+    "current_question_index": 0,
+    "training_instances": [],
+    "show_feedback": false,
+    "feedback_message": "",
+    "allow_retry": false,
+    "max_mistakes": -1,
+    "max_mistakes_per_question": -1,
+    "category_scores": {}
+  },
+  "qualified_categories": [],
+  "category_qualification_scores": {},
+  "instance_id_to_keyword_highlight_state": {
+    "727": {
+      "highlights": [],
+      "seed": 3663881556,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "545": {
+      "highlights": [],
+      "seed": 825072787,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "510": {
+      "highlights": [],
+      "seed": 2244530593,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "440": {
+      "highlights": [],
+      "seed": 3288600609,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "55": {
+      "highlights": [],
+      "seed": 2921283823,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "713": {
+      "highlights": [],
+      "seed": 3086820468,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "858": {
+      "highlights": [],
+      "seed": 3079284551,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "317": {
+      "highlights": [],
+      "seed": 3327626788,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "721": {
+      "highlights": [],
+      "seed": 235166888,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "704": {
+      "highlights": [],
+      "seed": 3768950784,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "974": {
+      "highlights": [],
+      "seed": 2924821959,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "1074": {
+      "highlights": [],
+      "seed": 976150758,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "610": {
+      "highlights": [],
+      "seed": 668541962,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "382": {
+      "highlights": [],
+      "seed": 1010283,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "212": {
+      "highlights": [],
+      "seed": 3651208184,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "529": {
+      "highlights": [],
+      "seed": 531497649,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "396": {
+      "highlights": [],
+      "seed": 939970062,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "324": {
+      "highlights": [],
+      "seed": 1126670364,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "320": {
+      "highlights": [],
+      "seed": 196011286,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "674": {
+      "highlights": [],
+      "seed": 2818875349,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "826": {
+      "highlights": [],
+      "seed": 2478514737,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "98": {
+      "highlights": [],
+      "seed": 3168116239,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "598": {
+      "highlights": [],
+      "seed": 1165958730,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "78": {
+      "highlights": [],
+      "seed": 2063488929,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "459": {
+      "highlights": [],
+      "seed": 893340052,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "1061": {
+      "highlights": [],
+      "seed": 1736524805,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "182": {
+      "highlights": [],
+      "seed": 577510722,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "666": {
+      "highlights": [],
+      "seed": 1898816934,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "968": {
+      "highlights": [],
+      "seed": 503376558,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "138": {
+      "highlights": [],
+      "seed": 1620844429,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "153": {
+      "highlights": [],
+      "seed": 3964110227,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "969": {
+      "highlights": [],
+      "seed": 2053486830,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "1055": {
+      "highlights": [],
+      "seed": 3334396020,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "432": {
+      "highlights": [],
+      "seed": 208851295,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "890": {
+      "highlights": [],
+      "seed": 3761911427,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "367": {
+      "highlights": [],
+      "seed": 298875629,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "126": {
+      "highlights": [],
+      "seed": 1881017133,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "292": {
+      "highlights": [],
+      "seed": 641824304,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "276": {
+      "highlights": [],
+      "seed": 3913368725,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "101": {
+      "highlights": [],
+      "seed": 2556211640,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "352": {
+      "highlights": [],
+      "seed": 1284503489,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "307": {
+      "highlights": [],
+      "seed": 1431111153,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "148": {
+      "highlights": [],
+      "seed": 4021068769,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "696": {
+      "highlights": [],
+      "seed": 4130233648,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "368": {
+      "highlights": [],
+      "seed": 3501049008,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "3": {
+      "highlights": [],
+      "seed": 2699685488,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "130": {
+      "highlights": [],
+      "seed": 2220594119,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "190": {
+      "highlights": [],
+      "seed": 3816039674,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "321": {
+      "highlights": [],
+      "seed": 1316491497,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "472": {
+      "highlights": [],
+      "seed": 1486201616,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    }
+  },
+  "instance_id_to_link_to_value": {},
+  "instance_id_to_event_to_value": {}
+}
