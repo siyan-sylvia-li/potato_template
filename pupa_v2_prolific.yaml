@@ -1,0 +1,55 @@
+# Task identification
+port: 9001
+annotation_task_name: "Private Query Quality Assessment"
+
+
+# Prolific login settings
+login:
+  type: url_direct
+  url_argument: PROLIFIC_PID
+
+# Completion settings
+completion_code: "ABC123XYZ"
+auto_redirect_on_completion: false  # Set to true for auto-redirect
+
+# Hide navigation to prevent workers from skipping
+hide_navbar: true
+jumping_to_id_disabled: true
+
+# Phase configuration
+phases:
+  order: [instructions, annotation]
+  instructions:
+    type: instructions
+    file: data/instructions.json
+    task_layout: layouts/instructions_task_layout.html
+  annotation:
+    type: annotation
+
+# Automatic task assignment for crowdsourcing
+assignment_strategy: random
+max_annotations_per_user: 5
+max_annotations_per_item: 3
+
+# Data files
+data_files:
+- /home/sylviali/Documents/pupa_v2_official/data/potato_data.jsonl
+item_properties:
+  id_key: id
+  text_key: user_query
+  context_key: context
+
+# Output
+output_annotation_dir: annotation_output/
+output_annotation_format: csv
+
+annotation_schemes:
+  - annotation_type: radio
+    name: pii_intent
+    description: >
+      Is this a naturally-occurring user query containing PRIVATE personally-identifiable information? (e.g. name, country, company name, email). Do not include queries about public figures and well-known entities.
+    labels:
+      - name: Yes, this is a natural query with PII
+        tooltip: "Refers to a private individual (e.g., a real person's name, address, contact info)"
+      - name: No, this query does not meet the requirements
+        tooltip: "This query does not meet the requirements"

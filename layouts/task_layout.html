@@ -1,0 +1,47 @@
+<!-- CONFIG_HASH: 845fcd5b9eda588e487622bd34d91f6c_9aa35cba66ccd518d0f581039f1de5d7 -->
+<!-- Generated annotation layout file -->
+<!-- This file was automatically generated based on the annotation schemes in your config -->
+<!-- You can customize this file to modify the layout of your annotation interface -->
+<!-- Changes to this file will be preserved across server restarts -->
+
+<div class="annotation_schema">
+
+    <form id="pii_intent" class="annotation-form radio shadcn-radio-container" action="/action_page.php" data-annotation-id="0" data-annotation-type="radio" data-schema-name="pii_intent" data-grid-columns="1">
+        
+        <fieldset schema="pii_intent">
+            <legend class="shadcn-radio-title">Is this a naturally-occurring user query containing PRIVATE personally-identifiable information? (e.g. name, country, company name, email). Do not include queries about public figures and well-known entities.
+</legend>
+            <div class="shadcn-radio-options">
+    
+            <div class="shadcn-radio-option">
+                <input class="pii_intent shadcn-radio-input annotation-input"
+                       type="radio"
+                       id="pii_intent_Yes, this is a natural query with PII_radio"
+                       name="pii_intent"
+                       value="Yes, this is a natural query with PII"
+                       selection_constraint="single"
+                       schema="pii_intent"
+                       label_name="Yes, this is a natural query with PII"
+                       onclick="onlyOne(this);registerAnnotation(this);"
+                       validation=""
+                       data-key="1">
+                <label for="pii_intent_Yes, this is a natural query with PII_radio" class="shadcn-radio-label" data-toggle="tooltip" data-html="true" data-placement="top" title="Refers to a private individual (e.g., a real person&#x27;s name, address, contact info)">Yes, this is a natural query with PII <span class="keybinding-badge">1</span></label>
+            </div>
+        
+            <div class="shadcn-radio-option">
+                <input class="pii_intent shadcn-radio-input annotation-input"
+                       type="radio"
+                       id="pii_intent_No, this query does not meet the requirements_radio"
+                       name="pii_intent"
+                       value="No, this query does not meet the requirements"
+                       selection_constraint="single"
+                       schema="pii_intent"
+                       label_name="No, this query does not meet the requirements"
+                       onclick="onlyOne(this);registerAnnotation(this);"
+                       validation=""
+                       data-key="2">
+                <label for="pii_intent_No, this query does not meet the requirements_radio" class="shadcn-radio-label" data-toggle="tooltip" data-html="true" data-placement="top" title="This query does not meet the requirements">No, this query does not meet the requirements <span class="keybinding-badge">2</span></label>
+            </div>
+        </div></fieldset></form>
+
+</div>

@@ -1,0 +1,103 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof setLoading === 'function') {
+        setLoading(false);
+    } else {
+        var loading = document.getElementById('loading-state');
+        var content = document.getElementById('main-content');
+        if (loading) loading.style.display = 'none';
+        if (content) content.style.display = 'block';
+    }
+});
+</script>
+
+<div style="font-family:Arial,sans-serif;max-width:820px;line-height:1.6;color:#222;padding:0 16px;">
+
+  <h1 style="font-size:1.4em;border-bottom:2px solid #333;padding-bottom:8px;">
+    Annotation Guidelines: Private Query Quality Assessment
+  </h1>
+
+  <p>You will see user queries submitted to an AI assistant. For each query you will answer:</p>
+
+  <p style="background:#f5f5f5;border-left:4px solid #555;padding:8px 16px;margin:12px 0;">
+    <em>"Is this a naturally-occurring user query containing <strong>PRIVATE</strong> personally-identifiable information? (e.g. name, country, company name, email). Do not include queries about public figures and well-known entities."</em>
+  </p>
+
+  <h2 style="font-size:1.1em;margin-top:20px;">Label Definitions</h2>
+  <table style="border-collapse:collapse;width:100%;margin-top:8px;">
+    <tr>
+      <th style="border:1px solid #bbb;padding:8px 12px;background:#f0f0f0;text-align:left;width:40%;">Answer</th>
+      <th style="border:1px solid #bbb;padding:8px 12px;background:#f0f0f0;text-align:left;">When to use</th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bbb;padding:8px 12px;"><strong>Yes, this is a natural query with PII</strong></td>
+      <td style="border:1px solid #bbb;padding:8px 12px;">The query contains names, places, or organisations that reveal real, private context about the user — e.g. a colleague's name, a specific employer, a patient's location, a private document. The PII is incidental to the task, not the point of the query.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bbb;padding:8px 12px;"><strong>No, this query does not meet the requirements</strong></td>
+      <td style="border:1px solid #bbb;padding:8px 12px;">The name/place/organisation is the <em>subject</em> of a generic task (e.g. "write an intro for Company X", "describe public figure Y"), or the query is genuinely ambiguous. Anyone in the world could have sent this query — it reveals nothing personal about the user.</td>
+    </tr>
+  </table>
+
+  <h2 style="font-size:1.1em;margin-top:20px;">Quick Reference</h2>
+  <table style="border-collapse:collapse;width:100%;margin-top:8px;">
+    <tr>
+      <th style="border:1px solid #bbb;padding:8px 12px;background:#f0f0f0;text-align:left;">Signal in the query</th>
+      <th style="border:1px solid #bbb;padding:8px 12px;background:#f0f0f0;text-align:left;">Answer</th>
+    </tr>
+    <tr><td style="border:1px solid #bbb;padding:8px 12px;">Pasted email, message, or document containing names</td><td style="border:1px solid #bbb;padding:8px 12px;">Yes</td></tr>
+    <tr><td style="border:1px solid #bbb;padding:8px 12px;">Legal or business clause from a real private contract</td><td style="border:1px solid #bbb;padding:8px 12px;">Yes</td></tr>
+    <tr><td style="border:1px solid #bbb;padding:8px 12px;">Clinical or social history note with patient details</td><td style="border:1px solid #bbb;padding:8px 12px;">Yes</td></tr>
+    <tr><td style="border:1px solid #bbb;padding:8px 12px;">Recruitment context with a specific named employer</td><td style="border:1px solid #bbb;padding:8px 12px;">Yes</td></tr>
+    <tr><td style="border:1px solid #bbb;padding:8px 12px;">"Write an introduction / biography for [Company]"</td><td style="border:1px solid #bbb;padding:8px 12px;">No</td></tr>
+    <tr><td style="border:1px solid #bbb;padding:8px 12px;">General question about a well-known public entity</td><td style="border:1px solid #bbb;padding:8px 12px;">No</td></tr>
+    <tr><td style="border:1px solid #bbb;padding:8px 12px;">Ambiguous — cannot tell from context</td><td style="border:1px solid #bbb;padding:8px 12px;">No</td></tr>
+  </table>
+
+  <div style="background:#fff8e1;border-left:4px solid #f0a500;padding:10px 16px;margin:16px 0;">
+    <strong>Watch out:</strong> An unfamiliar company name in a "write an intro" prompt is still <strong>No</strong>. A well-known company name inside a pasted contract or email is <strong>Yes</strong>. Obscurity ≠ private context.
+  </div>
+
+  <!-- Confirmation radio -->
+  <div class="annotation_schema" style="margin-top:24px;">
+    <form id="read_instructions" class="annotation-form radio shadcn-radio-container"
+          action="/action_page.php"
+          data-annotation-id="0"
+          data-annotation-type="radio"
+          data-schema-name="read_instructions"
+          data-grid-columns="1">
+      <fieldset schema="read_instructions">
+        <legend class="shadcn-radio-title">I have read and understood the instructions above.</legend>
+        <div class="shadcn-radio-options">
+          <div class="shadcn-radio-option">
+            <input class="read_instructions shadcn-radio-input annotation-input"
+                   type="radio"
+                   id="read_instructions_Yes_radio"
+                   name="read_instructions"
+                   value="Yes"
+                   selection_constraint="single"
+                   schema="read_instructions"
+                   label_name="Yes"
+                   onclick="onlyOne(this);registerAnnotation(this);"
+                   validation="required_label">
+            <label for="read_instructions_Yes_radio" class="shadcn-radio-label">Yes</label>
+          </div>
+          <div class="shadcn-radio-option">
+            <input class="read_instructions shadcn-radio-input annotation-input"
+                   type="radio"
+                   id="read_instructions_No_radio"
+                   name="read_instructions"
+                   value="No"
+                   selection_constraint="single"
+                   schema="read_instructions"
+                   label_name="No"
+                   onclick="onlyOne(this);registerAnnotation(this);"
+                   validation="">
+            <label for="read_instructions_No_radio" class="shadcn-radio-label">No</label>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+</div>
